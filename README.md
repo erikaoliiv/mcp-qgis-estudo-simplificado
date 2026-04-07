@@ -37,11 +37,15 @@ Para aprofundar seu conhecimento e replicar essa integração, estas são as fon
 
 | Fonte | Descrição | Link |
 | :--- | :--- | :--- |
+| **Seu Caderno Temático (NotebookLM)** | O seu próprio caderno de estudos no NotebookLM, onde você pode organizar suas anotações, prompts e insights sobre o MCP no QGIS. | [Acessar NotebookLM](https://notebooklm.google.com/notebook/ac128634-a437-4609-b698-24b69a1296fb) |
+| **Manual do Usuário QGIS 3.44** | A documentação oficial e completa do QGIS, essencial para entender as funcionalidades e APIs que o MCP pode orquestrar. | [Acessar Manual](https://docs.qgis.org/3.44/pt_BR/docs/user_manual/index.html) |
 | **Vídeo Tutorial (YouTube)** | *QGIS MCP - Model Context Protocol Integration*. Uma demonstração prática e visual que mostra a conexão entre o Claude Desktop e o QGIS em ação. Essencial para entender o fluxo. | [Acessar Vídeo](https://www.youtube.com/watch?v=Uyj6HUcQ6AA) |
 | **Repositório Oficial (GitHub)** | *jjsantos01/qgis_mcp*. O coração do projeto. Contém o código-fonte do servidor MCP em Python e o plugin QGIS necessário. | [Acessar Repositório](https://github.com/jjsantos01/qgis_mcp) |
 | **Artigo Técnico (El blog de franz)** | *Cómo Configurar un MCP en QGIS con Claude Desktop*. Um guia detalhado, passo a passo, para a instalação e configuração, incluindo a edição do arquivo JSON do Claude. | [Acessar Artigo](https://acolita.com/como-configurar-un-mcp-en-qgis-con-claude-desktop/) |
 | **Artigo de Análise (Skywork AI)** | *A Deep Dive into the QGIS MCP Server: An AI Engineer's Guide*. Uma análise técnica aprofundada sobre a arquitetura, capacidades e, crucialmente, as **limitações e riscos de segurança** do MCP no QGIS. | [Acessar Artigo](https://skywork.ai/skypage/en/qgis-mcp-server-guide/1979021904885096448) |
 | **Discussão (LinkedIn)** | *QGIS MCP: A Fast Tool for GIS Tasks*. Discussões e insights de Matt Forrest sobre a velocidade e os fundamentos do QGIS MCP, oferecendo uma perspectiva de usuário experiente. | [Acessar Discussão](https://www.linkedin.com/posts/mbforr_i-finally-got-around-to-playing-with-the-activity-7382610904292564992-5NGG) |
+| **Mapbox MCP Server** | *Introducing the Mapbox Model Context Protocol (MCP) Server*. Para entender como outras gigantes da indústria geoespacial estão utilizando e expandindo o conceito do MCP. | [Acessar Artigo](https://www.mapbox.com/blog/introducing-the-mapbox-model-context-protocol-mcp-server) |
+| **Awesome MCP Servers (GitHub)** | Uma coleção curada de diversos servidores MCP, útil para explorar outras integrações e expandir o conhecimento sobre o protocolo. | [Acessar Repositório](https://github.com/punkpeye/awesome-mcp-servers) |
 
 ---
 
@@ -105,10 +109,25 @@ Estes prompts foram elaborados para te ajudar tanto na instalação quanto na ex
 
 ---
 
+## ⏭️ Próximos Passos e Contribuições
+
+Este repositório é um ponto de partida para a sua jornada no GeoAI com QGIS e MCP. Encorajamos a comunidade a:
+
+*   **Explorar o NotebookLM:** Utilize o caderno temático para aprofundar seus estudos e testar os prompts sugeridos.
+*   **Testar Novas Integrações:** Experimente conectar outras IAs ou ferramentas ao QGIS via MCP.
+*   **Compartilhar Casos de Uso:** Documente seus próprios casos de uso e desafios superados.
+*   **Contribuir:** Sinta-se à vontade para abrir *issues* ou *pull requests* com sugestões, melhorias ou novas fontes.
+
+---
+
 ## 🔗 Referências
 
 [1] [QGIS AI Command Bridge - Apresentação PDF](QGIS_AI_Command_Bridge.pdf)
 [2] [A Deep Dive into the QGIS MCP Server: An AI Engineer's Guide - Skywork AI](https://skywork.ai/skypage/en/qgis-mcp-server-guide/1979021904885096448)
+[3] [QGIS User Manual 3.44 - QGIS Documentation](https://docs.qgis.org/3.44/pt_BR/docs/user_manual/index.html)
+[4] [QGIS MCP: A Fast Tool for GIS Tasks - LinkedIn](https://www.linkedin.com/posts/mbforr_i-finally-got-around-to-playing-with-the-activity-7382610904292564992-5NGG)
+[5] [Introducing the Mapbox Model Context Protocol (MCP) Server - Mapbox Blog](https://www.mapbox.com/blog/introducing-the-mapbox-model-context-protocol-mcp-server)
+[6] [Awesome MCP Servers - GitHub](https://github.com/punkpeye/awesome-mcp-servers)
 
 ---
 
